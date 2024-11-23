@@ -1,0 +1,10 @@
+{"name": "remote-team-collab-board",
+"type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "y": "^0.3.2"
+  }
+}
