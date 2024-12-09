@@ -1,10 +1,23 @@
-{"name": "remote-team-collab-board",
-"type": "module",
+{
+  "name": "remote-team-collab-board",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-db": "node config/init-db.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.21.1",
-    "y": "^0.3.2"
+    "express-session": "^1.17.3",
+    "mysql2": "^3.6.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
